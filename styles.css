@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: arial, sans-serif;
+}
+
+li, a {
+  font-weight: 500;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+a:hover{
+  color: #4285F4;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding:1% 5%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.search, .search-bar, .search-buttom {
+  display: flex;
+  justify-content: center;
+  
+}
+
+form {
+  display: block;
+}
+
+.search-bar > input[type=text] {
+
+  width: 50%;
+  height: 25%;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  max-width: 584px;
+  min-width: 360px;
+}
+
+input[type=text] {
+  width: 70%;
+  height: 25px;
+  margin: 5px 5px 5px 5px;
+}
+
+input[type=submit] {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #f8f9fa;
+  border: 1px
+  solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px
+  solid #dadce0;
+  color: #202124;
+}
+
+.images-span {
+  display: flex;
+  margin-right: 50%;
+  margin-left: 55%;
+  padding: 1px;
+  font-size: 14px;
+  color: #4285f4;
+}
+
+.adv-search > input[type=text] {
+  width: 100%;
+  padding-right: 16px;
+}
+
+.appbar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.line-div {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.cont {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.rw {
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.cl-1 {
+  flex: 1 1 30%;
+  width: 100%;
+  min-width: 110px;
+}
+
+.cl-2 {
+  flex: 1 1 70%;
+}
+
+.cl-2 < input[type=text] {
+  width: 100%;
+  padding: 1%;
+}
